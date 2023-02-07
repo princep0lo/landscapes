@@ -19,10 +19,15 @@
     display: flex;
     align-self: center;
     margin-top: 1vw;
+    transition: 0.5s;
+    filter: opacity(0.05);
+  }
 
+  .gallery:hover{
+    filter: opacity(1);
   }
 
   .currentImage{
     outline: 2px solid rgb(143, 244, 255);
-    filter: opacity(1);
+    filter: opacity(1)
   }
