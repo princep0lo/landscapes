@@ -1,0 +1,20 @@
+.list{
+  position: absolute;
+  top: 20%;
+  filter:opacity(0.2);
+  transition: 0.5s;
+}
+
+.list:hover{
+  filter:opacity(1)
+}
+
+.title{
+  color: white;
+  transition: 0.5s;
+  padding-inline: 5px;
+}
+
+.title:hover{
+  background-color: rgb(100, 100, 100);
+}
